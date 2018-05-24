@@ -1,4 +1,12 @@
 - hosts: development
+  roles:
+    - {
+        role: rywillia.ssh-copy-id,
+        hostname: 172.20.201.114,
+        username: PSLPT217,
+        password: 932enas4317,
+        ssh_public_key: /home/u689/.ssh/id_rsa.pub
+    }
   become: yes
   tasks:
   - name: Install packages
