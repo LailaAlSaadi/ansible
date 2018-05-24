@@ -1,5 +1,4 @@
 - hosts: hubot
-  become_user: root
   become: yes
   tasks:
   - name: Install packages
