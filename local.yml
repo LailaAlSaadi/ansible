@@ -1,4 +1,4 @@
-- hosts: development
+- hosts: all
   become: yes
   tasks:
   - name: Install packages
