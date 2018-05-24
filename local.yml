@@ -1,4 +1,4 @@
-- hosts: hubot
+- hosts: miladbox
   become: yes
   tasks:
   - name: Install packages
