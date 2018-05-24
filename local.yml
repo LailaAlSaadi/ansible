@@ -1,4 +1,4 @@
-- hosts: miladbox
+- hosts: 172.20.202.41
   become: yes
   tasks:
   - name: Install packages
