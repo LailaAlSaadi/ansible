@@ -14,7 +14,7 @@
 
 
 [development]
-172.20.201.114 ansible_ssh_user=ansible
+172.20.200.100 
 
 # Ex 2: A collection of hosts belonging to the 'webservers' group
 
