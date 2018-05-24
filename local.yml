@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: 172.20.201.114
   become: yes
   tasks:
   - name: Install packages
