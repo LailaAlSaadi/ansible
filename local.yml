@@ -1,5 +1,6 @@
-- hosts: 172.20.202.41
-  become: true
+- hosts: hubot
+  become_user: root
+  become: yes
   tasks:
   - name: Install packages
     apt: name={{item}}
